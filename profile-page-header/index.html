@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Profile header page</title>
+  </head>
+  <body class="flex justify-center items-center min-h-screen bg-ppLight font-poppins">
+    <main id="main" class="p-4">
+      <!-- card -->
+      <div
+        id="card"
+        class="bg-ppLight_2 p-4 max-w-full text-center rounded-lg shadow-md md:flex md:justify-between md:items-center md:text-left md:relative"
+      >
+        <!-- avatar info section -->
+        <section id="avatar" class="md:flex-1 md:mr-8">
+          <img src="./img/avatar.png" alt="avatar" class="w-20 mx-auto md:mx-0" />
+          <h2 class="font-extrabold text-lg text-ppBlue mt-1">MetaMask</h2>
+          <h4 class="text-sm font-semibold text-ppBlue mt-2">@metaMask</h4>
+          <p class="text-ppBlue text-sm mt-1">MetaMask brings Ethereum to your web browser</p>
+
+          <!-- social link -->
+          <div id="social-links" class="my-4 flex justify-center items-center space-x-4 md:space-x-2 md:justify-start">
+            <span id="github" class="bg-white p-2 rounded-xl border-2 cursor-pointer">
+              <img class="w-6" src="./img/github.png" alt="github" />
+            </span>
+            <span id="linkedin" class="bg-white p-2 rounded-xl border-2 cursor-pointer">
+              <img class="w-6" src="./img/linkedin.png" alt="linkedin" />
+            </span>
+            <span id="gitlab" class="bg-white p-2 rounded-xl border-2 cursor-pointer">
+              <img class="w-6" src="./img/gitlab.png" alt="gitlab" />
+            </span>
+            <span id="Ethereum" class="bg-white p-2 rounded-xl border-2 cursor-pointer">
+              <img class="w-6" src="./img/etherum.png" alt="etherum" />
+            </span>
+          </div>
+        </section>
+
+        <!-- follow section -->
+        <div id="right" class="text-sm md:flex-1 md:ml-8 md:relative">
+          <!-- md:flex md:flex-col md:justify-between -->
+
+          <div id="container" class="">
+            <!-- md:flex-1 -->
+            <div class="flex justify-between items-center mb-2">
+              <span class="text-sm">6/8 Organizations</span>
+              <span><img src="./img/i.png" alt="info-bulle" class="w-5 cursor-pointer" /></span>
+            </div>
+            <div id="progress-bar">
+              <!-- progress bar -->
+              <div class="w-full bg-ppLightGray rounded-full h-2 mb-4">
+                <div class="bg-ppOrange h-2 rounded-full" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- button & followers -->
+          <div id="container" class="text-ppBlue md:absolute md:top-[75px] md:right-[1px]">
+            <!-- md:self-end md:flex-1 -->
+            <div class="mb-2">
+              <span class="font-bold">4K</span>
+              <span class="font-medium">Followers</span>
+            </div>
+            <button class="text-white bg-ppBlue py-2 px-8 rounded-md">Follow</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

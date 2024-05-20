@@ -1,3 +1,3 @@
-# ui-daily-design
+# UI Design Daily
 
-This repository lists some of the implementation of the UI done on the [uidesigndaily dot com](https://uidesigndaily.com/)
+This repo aims to showcase most of the UI I have done from the UI Design Daily website using Semantic HTML and tailwind CSS [https://www.uidesigndaily.com](https://uidesigndaily.com/)
