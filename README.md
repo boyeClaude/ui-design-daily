@@ -5,3 +5,4 @@ This repo aims to showcase most of the UI I have done from the UI Design Daily w
 | No  | Template name       | Live example                                           |
 | --- | ------------------- | ------------------------------------------------------ |
 | 01  | Profile page header | [demo](https://the-profile-page-header-ui.netlify.app) |
+| 02  | Soon                | [demo](soon.app)                                       |
